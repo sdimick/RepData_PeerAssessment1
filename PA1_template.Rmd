@@ -6,6 +6,12 @@ output:
 ---
   
 To run this code locally, open the R Project in RStudio or use `sedwd()` to change the R session's working directory to where the `activity.csv` file is located.
+
+```{r opts, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "figure/"
+)
+```
   
 ## Loading and preprocessing the data
   

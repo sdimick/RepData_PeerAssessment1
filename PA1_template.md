@@ -1,6 +1,8 @@
 # Reproducible Research: Peer Assessment 1
   
 To run this code locally, open the R Project in RStudio or use `sedwd()` to change the R session's working directory to where the `activity.csv` file is located.
+
+
   
 ## Loading and preprocessing the data
   
@@ -55,7 +57,7 @@ activity.df %>%
   ylab("Frequency")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
+![](figure/unnamed-chunk-2-1.png)<!-- -->
   
 Calculate the __mean__ and __median__ steps per day.
 
@@ -90,7 +92,7 @@ activity.df %>%
   ylab("Average Steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](figure/unnamed-chunk-4-1.png)<!-- -->
   
 Find the 5-minute interaval that has the maximum average number of steps
 
@@ -165,7 +167,7 @@ no.nas %>%
   ylab("Frequency")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![](figure/unnamed-chunk-8-1.png)<!-- -->
   
 Calculate the *__NEW__* __mean__ and __median__ steps per day.
 
@@ -215,7 +217,7 @@ no.nas %>%
   ylab("Average Steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![](figure/unnamed-chunk-11-1.png)<!-- -->
   
 We can now see that on the weekends there is a smaller morning spike in the average number of steps and more average steps through the middle of the day.
   
